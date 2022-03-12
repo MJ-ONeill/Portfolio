@@ -1,0 +1,152 @@
+﻿.element::before {
+    content: "\01F60A";
+}
+.aboutMe-section {
+    background-color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjVuQN80USlUl_CUyCRPc3OJ_ScIKqoM42sQ&usqp=CAU");
+    background-size: 100%;
+    color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    padding: 0%;
+    max-width: 100%;
+    max-height: 100%
+}
+.aboutMe-section-top {
+    background-color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmcdgiTfwdh4qpXzxZNAxx-I5J4RrFfN9nNCqAKRWfcV_VuAK_yFrdCmrnvMfm3OS9zfM&usqp=CAU");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: white;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    max-width: 100%;
+    max-height: 100%
+}
+
+    .aboutMe-section > p {
+        font-size:3rem;
+        font-weight: 900;
+        font-style: italic;
+        color: black;
+        margin: auto;
+        margin-left:2px;
+        padding-top: 2%;
+        padding:1%;
+        display: flow-root;
+    }
+.aboutMe-section > h3 {
+    text-align: left;
+    color: black;
+    padding: 1%;
+    margin: auto;
+    justify-content: left;
+    display: block;
+    flex-wrap: wrap;
+    font-size: 4rem;
+    text-shadow: 15px 15px 5px red;
+}
+
+.aboutMe-section-top > h1 {
+    justify-content: center;
+    text-align: center;
+    color: #00FF00;
+    display: block;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 6rem;
+    text-shadow: 15px 30px 5px white;
+}
+
+.aboutMe-section-top > h2 {
+    justify-content: center;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #7FFF00;
+    padding-bottom: 2px;
+    margin: auto;
+    font-size: 5rem;
+    text-shadow: 15px 30px 5px cyan;
+}
+
+.aboutMe-section-top > h3 {
+    text-align: left;
+    color: #ADFF2F;
+    padding: 1%;
+    margin: auto;
+    justify-content: left;
+    display: block;
+    flex-wrap: wrap;
+    font-size: 4rem;
+    text-shadow: 15px 30px 5px red;
+}
+
+.aboutMe-container {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flow;
+    flex-wrap: wrap;
+}
+
+/*>>>>>>>>>>>>>>>> About Me Section Nav Bar <<<<<<<<<<<<<<*/
+.navbar2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+ul.navbar2 li {
+    list-style: none;
+}
+
+ul.navbar2 {
+    background-color: #000080;
+    overflow: auto;
+    margin: 0px;
+    padding: 3px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    ul.navbar2 li a {
+        display: block;
+        flex-wrap: wrap;
+        text-decoration: none;
+        font-size: 11pt;
+        text-align: center;
+        padding: 14px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+        ul.navbar2 li a:hover {
+            background-color: #0080ff;
+            color: red;
+        }
+
+@media(max-width: 28.75em) {
+    .navbar2 {
+        justify-content: center;
+    }
+}

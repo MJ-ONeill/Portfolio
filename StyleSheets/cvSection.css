@@ -1,0 +1,277 @@
+﻿.resume-section {
+    background-image: url("https://i.pinimg.com/564x/80/11/14/801114101f57a83cd18d6beb54400a68.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    display: flow-root;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+    .resume-section > p {
+        font-size: 16pt;
+        font-weight: 900;
+        font-style: italic;
+        color: white;
+        margin: auto;
+        display: flow-root;
+        flex-wrap: wrap;
+    }
+
+    .resume-section > h1 {
+        justify-content: center;
+        color: black;
+        display: flow-root;
+        flex-wrap: wrap;
+        position: relative;
+        font-size: 4rem;
+    }
+
+    .resume-section > h2 {
+        justify-content: center;
+        display: flow-root;
+        flex-wrap: wrap;
+        text-align: center;
+        color: black;
+        font-size: 20pt;
+        margin: auto;
+    }
+
+    .resume-section > h3 {
+        text-align: left;
+        color: black;
+        padding-left: 11%;
+        margin: auto;
+        display: flow-root;
+        flex-wrap: wrap;
+        font-size: 25pt;
+    }
+
+.resume-section-education {
+    display: inline;
+    flex-wrap: wrap;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+    .resume-section-education > p {
+        font-size: 16pt;
+        font-weight: 900;
+        font-style: italic;
+        color: white;
+        margin: auto;
+        display: flow-root;
+        flex-wrap: wrap;
+    }
+
+    .resume-section-education > p2 {
+        font-size: 12pt;
+        font-weight: 900;
+        font-style: italic;
+        color: cyan;
+        margin: auto;
+        display: flow-root;
+        flex-wrap: wrap;
+    }
+
+    .resume-section-education > h1 {
+        justify-content: center;
+        color: black;
+        display: flow-root;
+        flex-wrap: wrap;
+        position: relative;
+        font-size: 4rem;
+    }
+
+    .resume-section-education > h2 {
+        justify-content: center;
+        display: flow;
+        flex-wrap: wrap;
+        text-align: center;
+        color: black;
+        font-size: 20pt;
+        margin: auto;
+    }
+
+    .resume-section-education > h3 {
+        text-align: left;
+        color: black;
+        padding-left: 11%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 25pt;
+    }
+
+.resume-section-experience {
+    display: inline;
+    flex-wrap: wrap;
+    margin: 1%;
+    width: auto;
+    height: auto;
+}
+
+    .resume-section-experience > p {
+        font-size: 16pt;
+        font-weight: 900;
+        font-style: italic;
+        color: white;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .resume-section-experience > p2 {
+        font-size: 12pt;
+        font-weight: 900;
+        font-style: italic;
+        color: cyan;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .resume-section-experience > h1 {
+        justify-content: center;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        font-size: 4rem;
+    }
+
+    .resume-section-experience > h2 {
+        justify-content: center;
+        display: flow;
+        flex-wrap: wrap;
+        text-align: center;
+        color: black;
+        font-size: 20pt;
+        margin: auto;
+    }
+
+    .resume-section-experience > h3 {
+        text-align: left;
+        color: black;
+        padding-left: 11%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 25pt;
+    }
+
+.resume-section-certificates {
+    display: block;
+    flex-wrap: wrap;
+    margin: 1%;
+    width: auto;
+    height: auto;
+}
+
+    .resume-section-certificates > ul {
+        font-size: 16pt;
+        font-weight: 900;
+        font-style: italic;
+        color: white;
+        margin: auto;
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .resume-section-certificates > li {
+        font-size: 12pt;
+        font-weight: 900;
+        font-style: italic;
+        color: cyan;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .resume-section-certificates > h1 {
+        justify-content: center;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        font-size: 4rem;
+    }
+
+    .resume-section-certificates > h2 {
+        justify-content: center;
+        display: flow;
+        flex-wrap: wrap;
+        text-align: center;
+        color: black;
+        font-size: 20pt;
+        margin: auto;
+    }
+
+    .resume-section-certificates > h3 {
+        text-align: left;
+        color: black;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 25pt;
+    }
+
+.resume-container {
+    width: 100%;
+    margin: 1%;
+    justify-content: center;
+    display: flow;
+    flex-wrap: wrap;
+}
+
+/*>>>>>>>>>>>>>>>> REsume-Section Nav Bar <<<<<<<<<<<<<<*/
+.navbar3 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+ul.navbar3 li {
+    list-style: none;
+}
+
+ul.navbar3 {
+    background-color: black;
+    overflow: auto;
+    margin: 0px;
+    padding: 0%;
+    padding-bottom: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    ul.navbar3 li a {
+        display: block;
+        flex-wrap: wrap;
+        text-decoration: none;
+        font-size: 11pt;
+        text-align: center;
+        padding: 14px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+        ul.navbar3 li a:hover {
+            background-color: #0080ff;
+            color: red;
+        }
+
+@media(max-width: 28.75em) {
+    .navbar3 {
+        justify-content: center;
+    }
+}

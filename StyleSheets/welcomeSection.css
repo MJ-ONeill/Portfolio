@@ -1,0 +1,128 @@
+﻿.welcome-section {
+    background-image: url("https://w0.peakpx.com/wallpaper/231/776/HD-wallpaper-3d-red.jpg");
+    background-image: url("../images/sitsmile.jpg");
+    Background-repeat:no-repeat;
+    background-size: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    display: block;
+}
+.img {
+height:40%;
+width:40%;
+}
+    .welcome-section > p {
+        justify-content: center;
+        font-size: 4rem;
+        font-weight: 900;
+        font-style: italic;
+        color: cyan;
+        margin: 0;
+        padding-top: 2%;
+        text-shadow: 15px 30px 5px black;
+        display: flow;
+    }
+
+    .welcome-section > h1 {
+        justify-content: center;
+        color: lime;
+        text-shadow: 15px -60px 12px black ;
+        display: flow;
+        flex-wrap: wrap;
+        position: relative;
+        font-size: 10em;
+    }
+
+    .welcome-section > header {
+        color: aqua;
+        font-weight: 900;
+        font-size: 25pt;
+    }
+
+    .welcome-section > h2 {
+        justify-content: center;
+        display: flow;
+        flex-wrap: wrap;
+        font-size: 5rem;
+        text-align: center;
+        color: black;
+        padding: 2%;
+        margin: auto;
+        text-shadow: 10px 9px 5px red;
+    }
+
+    .welcome-section > h3 {
+        font-size: 4rem;
+        text-align: center;
+        color: black;
+        padding: 1%;
+        margin: auto;
+        text-shadow: 3px 5px 10px lime;
+        justify-content: center;
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.welcome-container {
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 0%;
+    justify-content: center;
+    display: block;
+  
+    flex-wrap: wrap;
+}
+
+/*>>>>>>>>>>>>>>>> Welcome-Section Nav Bar <<<<<<<<<<<<<<*/
+.navbar1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+ul.navbar1 li {
+    list-style: none;
+}
+
+ul.navbar1 {
+    background-color: black;
+    overflow: auto;
+    margin: auto;
+    padding: 4px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    ul.navbar1 li a {
+        display: block;
+        flex-wrap: wrap;
+        text-decoration: none;
+        font-size: 11pt;
+        text-align: center;
+        padding: 14px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+        ul.navbar1 li a:hover {
+            background-color: #0080ff;
+            color: red;
+        }
+
+@media (max-width: 28.75em) {
+    .navbar1 {
+        justify-content: center;
+    }
+}

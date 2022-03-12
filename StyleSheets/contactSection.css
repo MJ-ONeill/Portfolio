@@ -1,0 +1,117 @@
+﻿.icon-linkedin {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTYMSEFTPbe6FatiYSDjkAsKp1Qt1mtcZKDA&usqp=CAU ");
+    background-size: 100%;
+    height: 50px;
+    width: 100px;
+    flex-wrap:wrap;
+    justify-content:left;
+    border: 3px solid red;
+}
+.icon-codepen {
+    background-image: url("https://www.sourcecon.com/wp-content/uploads/sites/3/2018/05/Codepen.png ");
+    background-size: 100%;
+    height: 50px;
+    width: 100px;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 3px solid blue;
+}
+.contact-section {
+    background-color: #9932CC;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: left;
+   
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0%;
+}
+
+    .contact-section > h1 {
+        justify-content: center;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        font-size: 30pt;
+        text-decoration:underline;
+    }
+
+    .contact-section > p {
+        font-size: 16pt;
+        font-style: italic;
+        color: white;
+        margin: 0;
+        display: flow;
+    }
+
+    .contact-section > h2 {
+        justify-content: left;
+        display: flow;
+        flex-wrap: wrap;
+        text-align: left;
+        color: black;
+        margin: auto;
+        font-weight:900;
+        font-size:20px;
+        text-decoration:underline;
+    }
+
+    .contact-section > h3 {
+        font-weight: 900;
+        font-size: 20px;
+        text-align: left;
+        color: black;
+        margin: auto;
+        justify-content: left;
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: underline;
+    }
+    /* Nav Bar*/
+.navbar5 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+ul.navbar5 li {
+    list-style: none;
+}
+
+ul.navbar5 {
+    background-color: black;
+    overflow: auto;
+    margin: 0px;
+    padding: 0%;
+    padding-bottom: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    ul.navbar5 li a {
+        display: block;
+        flex-wrap: wrap;
+        text-decoration: none;
+        font-size: 11pt;
+        text-align: center;
+        padding: 14px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+        ul.navbar5 li a:hover {
+            background-color: #0080ff;
+            color: red;
+        }
+
+@media(max-width: 28.75em) {
+    .navbar5 {
+        justify-content: center;
+    }
+}
